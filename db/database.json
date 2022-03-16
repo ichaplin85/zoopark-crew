@@ -1,10 +1,11 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
+    "username": "admin",
+    "password": "123",
     "database": "zoopark",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "postgres",
+    "port": "5433"
   },
   "test": {
     "username": "root",
