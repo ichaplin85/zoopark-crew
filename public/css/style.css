@@ -1,0 +1,42 @@
+.popup-content {
+    position: fixed;
+    text-align: center;
+    max-width: 35rem;
+    left: 50%;
+    top: 10%;
+    background-color: #ededed;
+    border-radius: 4px;
+    transform: translateX(-50%) !important;
+    padding: 3rem 6rem 4rem 6rem;
+}
+
+.popup-close {
+    position: absolute;
+    top: -5rem;
+    right: -1.5rem;
+    font-size: 5rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    background: transparent;
+    color: #ffffff;
+    border: none;
+}
+
+.popup-consultation .button-order,
+.popup-design .button-order {
+    font-size: 1.3rem;
+}
+.popup-consultation .button-transparent,
+.popup-design .button-transparent {
+    font-size: 1.2rem;
+}
+.popup-consultation .button-transparent:before,
+.popup-design .button-transparent:before {
+    margin: 0;
+}
+.popup-content {
+    padding: 3rem 3rem;
+    width: 25rem;
+}
