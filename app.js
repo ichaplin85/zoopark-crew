@@ -36,7 +36,9 @@ app.use(express.json());
 // };
 // app.use(session(sessionConfig));
 
-
+app.get('/', (req,res)=>{
+    res.render('modal');
+});
 
 // app.use((req, res, next) => {
 //     const error = createError(404, 'Запрашиваемой страницы не существует на сервере.');
