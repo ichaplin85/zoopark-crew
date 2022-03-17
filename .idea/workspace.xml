@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7b123c2-b7d6-4fc3-a1fb-34fb1a5bfc6f" name="Changes" comment="deleted files">
-      <change afterPath="$PROJECT_DIR$/db/database.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/zoo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/zoo1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/signin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/signin.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="b7b123c2-b7d6-4fc3-a1fb-34fb1a5bfc6f" name="Changes" comment="deleted files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,10 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="database" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c5eeaf2e-9bbf-4685-9203-57d3c0161f19" />
+        <option name="url" value="git@github.com:ichaplin85/zoopark-crew.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/views/layout.hbs" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -58,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647517039596</updated>
       <workItem from="1647517041771" duration="1253000" />
+      <workItem from="1647518325576" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="deleted files">
       <created>1647517133299</created>
