@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+require('dotenv').config();
 const createError = require('http-errors');
 const logger = require('morgan');
 const path = require('path');
@@ -8,7 +9,7 @@ const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const FileStore = require('session-file-store')(session);
 
-const PORT = 3000;
+const PORT = process.env.MAIN_PORT || 3000;
 
 
 
