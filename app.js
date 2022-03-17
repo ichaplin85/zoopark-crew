@@ -11,7 +11,7 @@ const FileStore = require('session-file-store')(session);
 
 const PORT = process.env.MAIN_PORT || 3000;
 
-
+const indexRouter = require('./routers/signin');
 
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
@@ -46,7 +46,7 @@ app.get('/', (req,res)=>{
 //     next(error);
 // });
 
-
+app.use('/', indexRouter);
 
 app.listen(PORT, () => {
     console.log(`server started PORT: ${PORT}`);
