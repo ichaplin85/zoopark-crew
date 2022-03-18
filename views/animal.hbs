@@ -1,11 +1,16 @@
-<div class="container">
-    {{#each animals}}
-<div class="card" style="width: 18rem;">
-  <img src={{'Photos.link'}} class="card-img-top" alt="{{this.title}}">
-  <div class="card-body">
-    <h5 class="card-title">{{this.title}}</h5>
-    <a href="/animal/{{this.id}}">Про зверушку</a>
-  </div>
-  </div>
-    {{/each}}
+<link rel="stylesheet" href="/css/animal.css">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+   {{#each animals}}
+    <div class="carusel" id="{{id}}">
+      {{#each Photos}}
+          <div class="hoverer">
+          <img class="photo" src="{{link}}" alt="">
+          </div>
+      {{/each}}
+      <div class="hint">
+        {{description}}
+      </div>
+    </div>
+   {{/each}}
 </div>
+<script defer src="/js/animal.js"></script>
