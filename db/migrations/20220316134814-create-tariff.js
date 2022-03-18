@@ -8,14 +8,17 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      price: {
+      priceAdult: {
         type: Sequelize.INTEGER
       },
-      priceWeekend: {
+      priceWeekendAdult: {
         type: Sequelize.INTEGER
       },
-      isAdult: {
-        type: Sequelize.BOOLEAN
+      priceKid: {
+        type: Sequelize.INTEGER
+      },
+      priceWeekendKid: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,

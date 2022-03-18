@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="/css/animal.css">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+   {{#each animals}}
+    <div class="carusel" id="{{id}}">
+      {{#each Photos}}
+          <div class="hoverer">
+          <img class="photo" src="{{link}}" alt="">
+          </div>
+      {{/each}}
+      <div class="hint">
+        {{description}}
+      </div>
+    </div>
+   {{/each}}
+</div>
+<script defer src="/js/animal.js"></script>

@@ -14,9 +14,10 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Tariff.init({
-    price: DataTypes.INTEGER,
-    priceWeekend: DataTypes.INTEGER,
-    isAdult: DataTypes.BOOLEAN
+    priceAdult: DataTypes.INTEGER,
+    priceWeekendAdult: DataTypes.INTEGER,
+    priceKid: DataTypes.INTEGER,
+    priceWeekendKid: DataTypes.INTEGER,
   }, {
     sequelize,
     modelName: 'Tariff',

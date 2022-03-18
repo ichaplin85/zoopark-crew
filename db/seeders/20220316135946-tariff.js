@@ -12,16 +12,10 @@ module.exports = {
      * }], {});
     */
     await queryInterface.bulkInsert('Tariffs', [{
-      price: 300,
-      priceWeekend: 500,
-      isAdult: true,
-      createdAt: new Date(),
-      updatedAt: new Date(),
-    },
-    {
-      price: 200,
-      priceWeekend: 300,
-      isAdult: false,
+      priceAdult: 300,
+      priceWeekendAdult: 500,
+      priceKid: 200,
+      priceWeekendKid: 300,
       createdAt: new Date(),
       updatedAt: new Date(),
     }], {});

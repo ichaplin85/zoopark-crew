@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b123c2-b7d6-4fc3-a1fb-34fb1a5bfc6f" name="Changes" comment="deleted files">
-      <change afterPath="$PROJECT_DIR$/db/database.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/zoo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/zoo1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/signin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/signin.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sequelizerc" beforeDir="false" afterPath="$PROJECT_DIR$/.sequelizerc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/database.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/database.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrations/20220316134814-create-tariff.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrations/20220316134814-create-tariff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/models/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/models/photo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/models/tariff.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/models/tariff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeders/20220316135946-tariff.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeders/20220316135946-tariff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="database" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c5eeaf2e-9bbf-4685-9203-57d3c0161f19" />
+        <option name="url" value="git@github.com:ichaplin85/zoopark-crew.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/views/layout.hbs" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -47,7 +58,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/audio" />
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/routers" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,6 +77,9 @@
       <option name="presentableId" value="Default" />
       <updated>1647517039596</updated>
       <workItem from="1647517041771" duration="1253000" />
+      <workItem from="1647518325576" duration="253000" />
+      <workItem from="1647526993225" duration="6502000" />
+      <workItem from="1647586077391" duration="17708000" />
     </task>
     <task id="LOCAL-00001" summary="deleted files">
       <created>1647517133299</created>
