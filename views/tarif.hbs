@@ -1,0 +1,65 @@
+<h1>Тарифы</h1>
+<div class="w-50">
+
+<h3>Будни</h3>
+<form name = "formBlock" id="formTar" action="/tariff" method="post">
+
+<div class="row g-3 align-items-center">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label">Взрослые</label>
+  </div>
+  <div class="col-auto">
+    <input name="priceAdult" type="text" value="{{priceAdult}}">
+
+  </div>
+
+  <div class="col-auto">
+    <span id="passwordHelpInline" class="form-text">
+
+    </span>
+     <label for="inputPassword6" class="col-form-label">Дети</label>
+  </div>
+  <div class="col-auto">
+    <input name="priceKid" type="text" value="{{priceKid}}" >
+
+  </div>
+  <div class="col-auto">
+    <span id="passwordHelpInline" class="form-text">
+
+    </span>
+  </div>
+
+  <h3>Выходные</h3>
+
+<div class="row g-3 align-items-center">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label">Взрослые</label>
+  </div>
+  <div class="col-auto">
+    <input name="priceWeekendAdult"  type="text" value="{{priceWeekendAdult}}">
+
+  </div>
+  <div class="col-auto">
+    <span id="passwordHelpInline" class="form-text">
+
+    </span>
+     <label for="inputPassword6" class="col-form-label">Дети</label>
+  </div>
+  <div class="col-auto">
+    <input name="priceWeekendKid" type="text" value="{{priceWeekendKid}}" >
+
+  </div>
+  <div class="col-auto">
+    <span id="passwordHelpInline" class="form-text">
+    </span>
+  </div>
+</div>
+<center><br>
+<button type="submit" class="btn btn-warning w-50">ОБНОВИТЬ</button>
+</center>
+</div>
+
+
+</form>
+
+<script defer src="/js/tarifScript.js"></script>
