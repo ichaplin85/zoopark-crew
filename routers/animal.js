@@ -5,16 +5,20 @@ const { Animal } = require('../db/models')
 
 router.get('/', async (req, res) => {
 
-    const photos = await Photo.findAll()
-    const animals = await Animal.findAll()
-
+    // const photos = await Photo.findAll()
+    // const animals = await Animal.findAll({raw:true})
     
-    // let photosLion = await Photo.findAll({where: {animal_id: 1 }})
-    // let photosWolf = await Photo.findAll({where: {animal_id: 2 }})   
-    // let photosBear = await Photo.findAll({where: {animal_id: 3 }})   
+     const animals = await Animal.findAll({raw: true, include: [{model: Photo}]}) // Вариант Кирилла
+    
 
-    console.log(photos);
-    return res.render('animal')
+     
+
+
+
+     
+
+
+    return res.render('animal', {animals})
 });
 
 

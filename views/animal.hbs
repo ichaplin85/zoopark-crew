@@ -1,10 +1,11 @@
-{{!-- <link rel="stylesheet" href="../public/css/style.css"> --}}
-uraaaaaaaaa
-{{!-- <div class="container">
-    <div class="slider-line">
-        <img src="{{this.link}}" alt="Мишка">
-        <img src="{{this.link}}" alt="Лев">
-        <img src="{{this.link}}" alt="Волк">
-
-    </div>
-</div> --}}
+<div class="container">
+    {{#each animals}}
+<div class="card" style="width: 18rem;">
+  <img src={{'Photos.link'}} class="card-img-top" alt="{{this.title}}">
+  <div class="card-body">
+    <h5 class="card-title">{{this.title}}</h5>
+    <a href="/animal/{{this.id}}">Про зверушку</a>
+  </div>
+  </div>
+    {{/each}}
+</div>
