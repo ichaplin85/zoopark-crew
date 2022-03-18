@@ -5,13 +5,16 @@ const createError = require('http-errors');
 const logger = require('morgan');
 const path = require('path');
 
+
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const FileStore = require('session-file-store')(session);
 
 const PORT = process.env.MAIN_PORT || 3000;
 
+//Connect routers
 const indexRouter = require('./routers/signin');
+const animalRouter = require('./routers/animal');
 
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
@@ -37,9 +40,9 @@ app.use(express.json());
 // };
 // app.use(session(sessionConfig));
 
-app.get('/', (req,res)=>{
-    res.render('modal');
-});
+// app.get('/', (req,res)=>{
+//     res.render('modal');
+// });
 
 // app.use((req, res, next) => {
 //     const error = createError(404, 'Запрашиваемой страницы не существует на сервере.');
@@ -47,6 +50,8 @@ app.get('/', (req,res)=>{
 // });
 
 app.use('/', indexRouter);
+app.use('/animal', animalRouter);
+
 
 app.listen(PORT, () => {
     console.log(`server started PORT: ${PORT}`);
